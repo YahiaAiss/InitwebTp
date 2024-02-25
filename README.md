@@ -11,10 +11,6 @@ The project consists of creating a multi-page website for a shopping center. Her
 3. **Individual Product Pages:** Details of each product within their respective categories.
 4. **Contact Page:** Allows users to get in touch with the admin via a contact form.
 
-## Project Structure
-
-The project directory is organized as follows:
-
 # Info
 This site is just for my study and doesn't have anything to do with my web development career.
 
