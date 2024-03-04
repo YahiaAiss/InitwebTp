@@ -16,9 +16,27 @@ a:hover{
     color: aqua;
     font-size: 45px;
 }
+img{
+    width: 800px;
+}
+button{
+    height: 45px;
+    margin-left: 100px;
+    width: 300px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-self: right;
+}
+button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-style:groove;
+}
 
 body {
-    width: 80%;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
