@@ -11,26 +11,46 @@ html {
 p{
     line-height: 1.5em;
     font-size: 20px;
+    color: white;
 }
 a:hover{
     color: aqua;
     font-size: 45px;
 }
+img{
+    width: 800px;
+}
+button{
+    height: 45px;
+    margin-left: 100px;
+    width: 300px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-self: right;
+}
+button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-style:groove;
+}
 
 body {
-    width: 80%;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #000000;
     margin: 0;
     padding: 0;
     transition: all 0.5s ease;
 }
 li{
     font-size: 25px;
+    color: white;
 }
 header {
     background-color: #333333;
-    color: #fff;
+    color: #ffffff;
     padding: 20px;
 }
 
@@ -43,28 +63,32 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
 section {
     padding: 20px;
     margin: 20px 0;
-    background-color: #fff;
+    background-color: #1f1f1f;
     border-radius: 5px;
 }
 h1{
     font-size: 40px;
+    color: white;
 }
 h2{
     font-size: 30px;
+    color: white;
 }
 a{
     font-size: 30px;
     transition: all 0.3s ease; 
+    color: white;
 }
 
 footer {
